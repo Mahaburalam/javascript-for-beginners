@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Introduction</title>
+</head>
+<body style="background-color: #7DCEA0;">
+    <h2>
+        Hi, JavaScript Developer. Welcome Back Again!!
+    </h2>
+    <button onclick="document.getElementById('date-time').innerHTML = Date()">To show current date and time</button>
+    <p id="date-time"></p>
+    <br>
+    <hr>
+    <h4>javaScript can change HTML attribute</h4>
+    <button onclick="document.getElementById('change-attribute').src='../assets/images/pic_bulbon.gif'">Turn on Light</button>
+    <img id = "change-attribute" src="../assets/images/pic_bulboff.gif">
+    <button onclick="document.getElementById('change-attribute').src='../assets/images/pic_bulboff.gif'">Turn off Light</button>
+    <script src="./index.js"></script>
+</body>
+</html>

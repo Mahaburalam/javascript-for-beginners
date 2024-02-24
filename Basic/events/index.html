@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Events</title>
+    <link rel="stylesheet" href="../../assets/style.css">
+</head>
+<body>
+    <p id="event"></p>
+    <button onclick="document.getElementById('event').innerHTML = Date()">Click to show date</button>
+    <!-- change own content -->
+    <button onclick="this.innerHTML = Date()">show date</button>
+    <br>
+    <h3 id="show-content"></h3>
+    <button onclick="displayContent()">Show</button>
+    <script src="./events.js"></script>
+</body>
+</html>

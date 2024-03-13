@@ -81,7 +81,7 @@ else
 const numberArray = [2, 3, 9, 6, 0, 1, 3, 6, 5, 7, 9, 4];
 
 const duplicateNumber = numberArray.filter(function(value, index, array){
-    return (array.indexOf(value) !== index);
+    return (array.indexOf(value) !== index); //index = current index
 });
 console.log(`Array Duplicate Values are: ${duplicateNumber}`);
 

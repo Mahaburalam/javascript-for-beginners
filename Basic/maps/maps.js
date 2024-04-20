@@ -15,3 +15,7 @@ console.log(`View all values:`, mapValues);
 
 // show size
 console.log(`Show number of values:`, mapValues.size);
+
+// delete element
+console.log(`Delete element: `, mapValues.delete("id"));
+console.log(mapValues);

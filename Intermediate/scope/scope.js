@@ -47,3 +47,18 @@ function C(){
     console.log(`functional scope by Const variable: ${xx}`);
 }
 C();
+
+// global scope
+function test(){
+    name1 = "Mahabur";
+    console.log(name1);
+}
+test();
+console.log(name1);
+
+
+// local scope
+function newTest(a, b){ //here a & b are local scope
+    console.log(a + b)
+}
+newTest(21, 45);

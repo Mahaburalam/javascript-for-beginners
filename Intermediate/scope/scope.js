@@ -48,7 +48,7 @@ function C(){
 }
 C();
 
-// global scope
+// automatically global scope
 function test(){
     name1 = "Mahabur";
     console.log(name1);

@@ -16,3 +16,4 @@ const info = {
             }
     }
 }
+console.log(info, typeof(info))

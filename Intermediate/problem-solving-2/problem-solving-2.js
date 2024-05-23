@@ -4,8 +4,8 @@ const sentence = "Hi, James went to the theater. James watched an engaging play.
 // find match count
 const matchSearch = sentence.match(/james/gi);
 const matchSearchCount = matchSearch ? matchSearch.length : 0; // if search option match then return length else 0
-console.log(matchSearchCount);
+console.log('Search result find how much time:',matchSearchCount);
 
 // first match position
 const position = sentence.search(/james/i); // search option return match position
-console.log(position);
+console.log('Find match result position',position);

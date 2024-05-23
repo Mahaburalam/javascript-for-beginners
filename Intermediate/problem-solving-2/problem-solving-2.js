@@ -1,11 +1,16 @@
-// from a sentence find name use in how many times and which position find first
-const sentence = "Hi, James went to the theater. James watched an engaging play. James then met the cast and director during the post-show discussion."
+// find longest word from an array and return this index
 
-// find match count
-const matchSearch = sentence.match(/james/gi);
-const matchSearchCount = matchSearch ? matchSearch.length : 0; // if search option match then return length else 0
-console.log('Search result find how much time:',matchSearchCount);
+function longestString(words){
 
-// first match position
-const position = sentence.search(/james/i); // search option return match position
-console.log('Find match result position',position);
+    let longestWord = '';
+
+    for(let word of words){
+        if(word.length > longestWord.length){
+            longestWord = word;
+        }
+    }
+    return [longestWord, words.indexOf(longestWord)];
+}
+
+const longestStrings = longestString(["Mahabur", "Ahnaf", "Nusrat", "Bangladesh"]);
+console.log(longestStrings);

@@ -1,4 +1,4 @@
-// for non-primitive data type
+// object definition & for non-primitive data type
 const person = {
     name:"mahabur",
     age:23

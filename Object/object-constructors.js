@@ -14,3 +14,9 @@ const user1 = new Person("Mahabur", "Alam", 23, "Dhaka");
 const user2 = new Person("Mahabur", "Alam");
 // console.log(user1, user2);
 console.log(user1.fullName());
+
+console.dir(user1);
+
+const test = new String("test")
+console.log(typeof(test))
+console.log(typeof(false))

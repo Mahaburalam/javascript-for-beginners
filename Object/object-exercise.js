@@ -24,6 +24,7 @@ person.name = function() {
 // console.log(person.name());
 
 // 4
+// let radius11 = 10;
 const shape = {
     radius: 10,
     diameter() {
@@ -32,7 +33,7 @@ const shape = {
     test: function() {
         return (2 * Math.PI * this.radius);
     },
-    perimeter: () => 2 * Math.PI * this.radius,
+    perimeter: () => 2 * Math.PI * this.radius, // this not working in arrow function
 };
 
 console.log(shape.diameter());

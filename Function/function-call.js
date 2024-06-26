@@ -15,4 +15,4 @@ const person2 = {
 }
 
 console.log(person.fullName.call(person1));
-console.log(person.fullName.call(person2, "Khulna", "Bangladesh"));
+console.log(person.fullName.call(person2, "Khulna", "Bangladesh")); // with passing arguments
